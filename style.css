@@ -1,0 +1,396 @@
+/**
+ * Theme Name:     Дочерняя тема
+ * Author:         Yura Evseev
+ * Template:       messia
+ * Text Domain:	   dochernyaya-tema
+ * Description:    Создана для примера
+ */
+
+a{
+color: #4A72FF;
+}
+
+a:hover{
+color: #4163DB;
+}
+
+.menu_phone{
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+  -ms-flex-align: center;
+	align-items: center;
+	font-size: 20px;
+	line-height: 1;
+	gap: 10px;
+}
+
+.menu_phone span{
+	display: block;
+	margin-top: -3px;
+	white-space: nowrap;
+}
+
+.menu_phone:hover path{
+	stroke: #4163DB;
+}
+
+.btn_blue{
+	background-color: #4A72FF;
+}
+.btn_blue:hover{
+	background-color: #4163DB;
+	color: #fff;
+}
+
+header, .header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+header.header{
+	background-color: #fff;
+	box-shadow: 0px 4px 24px 0px #5451511A;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+header.header .container{
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	-webkit-box-align: center;
+  -ms-flex-align: center;
+	gap: 45px;
+	min-height: 114px;
+}
+
+header .logo{
+	max-width: 254px;
+	margin-right: 0;
+}
+
+header .btn_blue{
+	min-width: 215px;
+	margin-bottom: 0;
+}
+
+.menu-header{
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+	justify-content: center;
+	margin-bottom: 0;
+}
+
+.menu-header ul li{
+	margin-right: 33px;
+}
+
+.menu-header ul li:last-child{
+	margin-right: 0;
+}
+
+.menu-header ul li.menu-item-has-children{
+	position: relative;
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+	gap: 6px;
+}
+
+.menu-header ul li.menu-item-has-children::before{
+	content: '';
+	position: absolute;
+	bottom: -25px;
+	height: 30px;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	background-color: transparent;
+}
+
+.menu-header ul li.menu-item-has-children::after{
+	content: '';
+	display: block;
+	width: 20px;
+	min-width: 20px;
+	height: 20px;
+	background-image: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.1665 1.08337L6.99984 6.91671L12.8332 1.08337' stroke='%23343434' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+	background-size: 12px 7px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.menu-header ul li.menu-item-has-children:hover::after{
+	transform: rotate(-180deg);
+	background-image: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.834 6.91675L7.00065 1.08341L1.16732 6.91675' stroke='%234A72FF' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+.menu-header ul li ul li{
+	padding: 0;
+}
+
+.menu-header ul li ul li a{
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.01em;
+}
+
+.menu-header ul li ul li{
+	margin-bottom: 16px;
+}
+
+.menu-header ul li ul li:last-child{
+	margin-bottom: 0;
+}
+
+.menu ul li a{
+	font-size: 18px;
+	line-height: 1;
+}
+
+.menu ul li:hover > a{
+	color: #4163DB;
+}
+
+.menu-header ul ul{
+	padding: 24px;
+	box-shadow: 0px 0px 14.800000190734863px 0px #1A316B1A;
+	right: -28px;
+	top: 150%;
+	left: auto;
+	min-width: 310px;
+}
+
+.menu-header ul li > ul::before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: -22px;
+	right: 27px;
+	border: 11px solid transparent; 
+	border-bottom: 11px solid white; 
+}
+
+.home {
+	background-color: #fff;
+}
+
+.home .cap {
+	position: relative;
+	min-height: 900px;
+	background: linear-gradient(116.35deg, #FFFFFF 1.46%, #F3F9FF 101.33%);
+	padding-top: 140px;
+	margin-bottom: 77px;
+}
+
+.home .cap:before{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 699px;
+	height: 701px;
+	background-image: url(https://clean-rating.ru/wp-content/themes/dochernyaya-tema/img/header_bg.png);
+	background-position: bottom right;
+	background-size: 699px 701px;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+.home .cap .cap-left{
+	position: relative;
+	z-index: 2;
+	max-width: 100%;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+.home .cap .cap-left .h1{
+	font-size: 64px;
+	line-height: 1.1;
+	opacity: .9;
+	max-width: 800px;
+}
+
+.home .cap .cap-left .h1:not(:last-child){
+	margin-bottom: 80px;
+}
+
+.home .cap .text{
+	display: none;
+}
+
+.home .cap .cap-right{
+	display: none;
+}
+
+.home .cap-search-new.form{
+	background: #fff;
+	padding: 25px;
+	box-shadow: 0px 0px 14.800000190734863px 0px #1A316B26;
+	border-radius: 15px;
+	max-width: 1000px;
+}
+
+.home .cap-search-new.form:not(:last-child){
+	margin-bottom: 69px;
+}
+
+.home .cap-search-new.form form{
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+	align-items: flex-end;
+	gap: 14px;
+}
+
+.home .cap-search-new.form .selects{
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	max-width: 706px;
+	width: 100%;
+}
+
+.home .cap-search-new.form .selects .selects--wrapper {
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	flex: 1 1 calc(50% - 14px);
+	flex-wrap: wrap;
+	max-width: 49%;
+	width: 100%;
+}
+
+.home .cap-search-new.form .selects .selects--wrapper label{
+	display: block;
+	width: 100%;
+}
+
+.home .cap-search-new.form .selects .selects--wrapper label:not(:last-child){
+	margin-bottom: 13px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.home .cap-search-new.form .selects .select2-container {
+	max-width: 346px;
+	width: 100%;
+	flex: 1 1 calc(50% - 14px);
+}
+
+.home .cap .select2-container--default .select2-selection--single{
+	margin: 0;
+}
+
+.home .select2-container--open .select2-dropdown--below{
+	margin-top: 0;
+}
+
+.home .select2-container--default .select2-selection--single .select2-selection__placeholder{
+	color: #2A2A2A;
+	opacity: 0.6;
+	font-weight: 500;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+	background-image: url("data:image/svg+xml,%3Csvg width='11' height='6' viewBox='0 0 11 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.5' d='M1 1L5.5 5.5L10 1' stroke='black' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	background-size: 9px 4.5px;
+	background-position: center center;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow{
+	transform: rotate(180deg);
+	background-image: url("data:image/svg+xml,%3Csvg width='11' height='6' viewBox='0 0 11 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.5' d='M1 1L5.5 5.5L10 1' stroke='%234A72FF' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+	display: none;
+}
+
+.home .cap-search-new.form form a.btn_blue{
+	max-width: 234px;
+}
+
+.cap-left_advantages{
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	gap: 80px;
+}
+
+.cap-left_advantage{
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.cap-left_advantage strong{
+	font-size: 38px;
+	line-height: 41px;
+	color: #4A72FF;
+	margin-bottom: 5px;
+}
+
+.cap-left_advantage span {
+	font-size: 20px;
+	line-height: 22px;
+	color: #2a2a2a;
+	opacity: 0.7;
+}
+
+.cap-left_cities{
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+  -ms-flex-align: center;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 30px;
+}
+
+.cap-left_city{
+	display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+  -ms-flex-align: center;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 21px;
+	background-color: #F4F7FF;
+	border-radius: 40px;
+}
+
+.cap-left_city span {
+	color: #4768DB;
+	font-weight: 500;
+}
