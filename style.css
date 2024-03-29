@@ -1373,6 +1373,7 @@ footer .item--logo{
 		height: -webkit-fit-content;
 		height: -moz-fit-content;
 		height: fit-content;
+		max-height: 16px;
 	}
 
 	.menu_phone{
