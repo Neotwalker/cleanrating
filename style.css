@@ -1393,6 +1393,7 @@ footer .item--logo{
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
 		flex-direction: column;
+		display: none;
 	}
 
 	.menu-header ul li:hover ul {
@@ -1438,6 +1439,7 @@ footer .item--logo{
 		list-style-type: none;
 		max-width: 282px;
 		width: 100%;
+		margin: 0 auto;
 	}
 
 	.menu-header .menu_login li a.btn-blue{
