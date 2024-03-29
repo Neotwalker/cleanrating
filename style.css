@@ -1572,9 +1572,8 @@ footer .item--logo{
 		height: 25px;
 	} */
 
-	.spoiler .title,
-	.spoiler .text{
-		padding: 20px;
+	.h2-title{
+		gap: 16px;
 	}
 
 	.slick-list, .slick-track{
@@ -1584,5 +1583,47 @@ footer .item--logo{
 	.home .cap::before{
 		background-size: 270px 271px;
 	}
+
+	.main--services__slide{
+		min-width: 330px;
+		height: -webkit-fit-content;
+		height: -moz-fit-content;
+		height: fit-content;
+	}
+
+	.main--services__slide--image{
+		height: 240px;
+	}
+
+	.main--services__slide--image img{
+		height: 240px;
+	}
+
+	.main--services__slide--text{
+		padding: 20px 17px 26px;
+	}
+
+	.home-filters .container .text-center .all-objects{
+		min-width: initial;
+	}
+
+	.home-filters .slider-3-item .slick-slide,
+	.slider-3-item .slick-slide{
+		margin: 0 12px;
+	}
+
+	.articles-home .slick-slide .item{
+		padding: 18px 20px;
+	}
+
+	.spoiler .title{
+		gap: 20px;
+	}
+	
+	.spoiler .title,
+	.spoiler .text{
+		padding: 20px;
+	}
+
 
 }
