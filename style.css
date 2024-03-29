@@ -1581,4 +1581,8 @@ footer .item--logo{
 		overflow: initial;
 	}
 
+	.home .cap::before{
+		background-size: 270px 271px;
+	}
+
 }
