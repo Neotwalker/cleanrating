@@ -752,6 +752,9 @@ header .btn_blue {
 	line-height: 21px;
 	text-decoration: underline;
 	color: var(--black);
+	border: none;
+	padding: 0;
+	margin: 0;
 }
 
 .home-filters .category {
