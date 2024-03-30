@@ -466,7 +466,7 @@ header .btn_blue {
 }
 
 .home .select2-container--open .select2-dropdown--below {
-	margin-top: 0;
+	margin-top: 32px;
 }
 
 .home .select2-container--default .select2-selection--single .select2-selection__placeholder {
@@ -732,7 +732,7 @@ header .btn_blue {
 	margin: 0;
 }
 
-.home-filters .items-filter .category .links {
+.home-filters .items-filter .category .list-cat {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -747,7 +747,7 @@ header .btn_blue {
 	margin-top: 16px;
 }
 
-.home-filters .items-filter .category .links a {
+.home-filters .items-filter .category .list-cat a {
 	font-size: 18px;
 	line-height: 21px;
 	text-decoration: underline;
