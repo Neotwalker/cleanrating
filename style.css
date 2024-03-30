@@ -1474,6 +1474,10 @@ body main .category-new ul{
 	min-height: fit-content;
 }
 
+.cart-description .btn-read.active{
+	display: none;
+}
+
 .cart-description .btn-read:hover{
 	color: var(--accenthover);
 }
