@@ -1772,7 +1772,7 @@ footer .item--logo{
 	}
 
 	.menu ul li:hover > a {
-		background: #4A72FF1A !important;
+		background: transparent !important;
 		color: var(--black);
 	}
 
@@ -1849,7 +1849,7 @@ footer .item--logo{
 		opacity: 0;
 		visibility: hidden;
 	}
-
+	
 	.menu-header ul li{
 		margin-right: 0;
 	}
@@ -1888,6 +1888,10 @@ footer .item--logo{
 	.menu-header ul li.menu-item-has-children::before,
 	.menu-header ul li.menu-item-has-children::after{
 		display: none;
+	}
+
+	.menu-header ul li.menu-item-has-children.active > a{
+		background-color: #4A72FF1A !important;
 	}
 
 	.menu-header ul li.menu-item-has-children.active .sub-menu{
