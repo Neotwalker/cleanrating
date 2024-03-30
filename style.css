@@ -2501,4 +2501,8 @@ footer .item--logo{
 		line-height: 19px;
 	}
 
+	#sidebar.object_side{
+		padding: 0;
+	}
+
 }
