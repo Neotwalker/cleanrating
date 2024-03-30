@@ -2076,6 +2076,8 @@ footer .item--logo{
 
 	.sections .rating .ratingCount{
 		margin-bottom: 0;
+		margin-top: 0;
+		margin-left: 15px;
 	}
 
 	.page-template-v3 .cap .cap-left{
