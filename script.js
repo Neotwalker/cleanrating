@@ -15,5 +15,12 @@ $(function () {
 			},
 		]
 	});
-	
+
+	let childrenMenu = document.querySelectorAll('.menu-header ul li.menu-item-has-children');
+	childrenMenu.forEach( (menu) => {
+		menu.addEventListener('click', (e) => {
+			e.preventDefault();
+			menu.classList.toggle('active');
+		});
+	});
 });
