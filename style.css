@@ -1777,8 +1777,8 @@ footer .item--logo{
 	}
 
 	.menu-header ul li.menu-item-has-children:hover > a::after{
-		background-image: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.834 6.91675L7.00065 1.08341L1.16732 6.91675' stroke='%234A72FF' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-		transform: rotate(0deg);
+		background-image: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.1665 1.08337L6.99984 6.91671L12.8332 1.08337' stroke='%234A72FF' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+		transform: rotate(180deg);
 	}
 
 	.menu ul ul{
